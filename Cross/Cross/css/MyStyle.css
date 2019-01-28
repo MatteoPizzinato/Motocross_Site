@@ -1,10 +1,10 @@
 
 body {
-	font-family: 'Open Sans', sans-serif;
 	line-height: 20px;
 	color: #999999;
 	font-size: 300;
-	font-size: 16px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
 }
 ol, ul {
 	list-style: none;
@@ -23,7 +23,6 @@ table {
 }
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	color: #222222;
 }
@@ -74,12 +73,6 @@ banner
     border-radius: 0px;
 }
 
-.navbar-brand
-{
-	font-family: 'Chewy', cursive;
-	font-size: 32px;
-}
-
 .navbar-brand img {
     padding-top: 2px;
     width: 120px !important;
@@ -125,7 +118,7 @@ banner
 {
 	color: #fff;
     text-transform: uppercase;
-    background-color: rgba(114, 58, 12, 0.21);
+    background-color: rgb(114, 58, 12, 0.9);
 }
 .affix {
     background-color: #ffffff !important;
@@ -154,7 +147,6 @@ banner
 	color: #fff;
 }
 .banner-text h1{
-	font-family: 'Candal', sans-serif;
 	font-size: 35px;
 	text-transform: uppercase;
 	padding-bottom:15px;
@@ -163,7 +155,7 @@ banner
 	margin-top: 30px;
 	padding: 10px 20px;
 	font-size: 12px;
-	background-color: rgba(12, 184, 182, 0.91);
+	background-color: rgba(184, 81, 12, 0.281);
 	border-radius: 3px;
 	color: #fff;
 }
@@ -183,7 +175,7 @@ banner
 services
 ***************************************/
 .icon i{
-	color: #0cb8b6;
+	color: rgba(184, 81, 12, 0.281);
 	font-size: 45px;
 	margin-bottom: 25px;
 }
@@ -193,14 +185,11 @@ services
 .icon-info h4{
 	padding-bottom: 15px;
 }
-.icon-info p{
-	font-size: 15px !important;
-}
 /***************************************
 cta-1
 ***************************************/
 .schedule-tab {
-	background-color: #0CB8B6;
+	background-color:rgb(114, 58, 12);
 	float: left;
 }
 .medi-info{
@@ -237,7 +226,7 @@ td {
 about
 ***************************************/
 #about{
-    background-color: rgba(238, 238, 238, 0.15);
+    background-color: rgba(184, 81, 12, 0.281);
 }
 .lg-line{
 	line-height: 1.4;
@@ -248,7 +237,7 @@ about
     width: 40px;
     height: 40px;
     padding-top: 6px;
-    background: #0cb8b6;
+    background: #943a06;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -269,18 +258,7 @@ about
 .sec-para{
 	padding-bottom: 10px;
 }
-/***************************************
-doctor team
-***************************************/
-.thumbnail {
-	border-radius: 0px;
-}
-.caption h3{
-    padding-bottom: 5px;
-}
-.caption p{
-    padding-bottom: 10px;
-}
+
 /***************************************
 testimonial
 ***************************************/
