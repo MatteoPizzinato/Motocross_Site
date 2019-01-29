@@ -34,9 +34,9 @@
             <div class="collapse navbar-collapse navbar-right" id="myNavbar">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#banner">Home</a></li>
-                <li class=""><a href="#service">Servizi</a></li>
-                <li class=""><a href="#about">About</a></li>
-                <li class=""><a href="#contact">Contatti</a></li>
+                <li class=""><a href="#service">Services</a></li>
+                <li class=""><a href="#OH">Opening Hours</a></li>
+                <li class=""><a href="#contact">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -67,7 +67,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-sm-4">
-          <h2 class="ser-title">Our Service</h2>
+          <h2 class="titling">Our Service</h2>
           <hr class="botm-line">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>
         </div>
@@ -77,16 +77,16 @@
               <ion-icon name="water" size="large" style="color: cornflowerblue"></ion-icon>
             </div>
             <div class="icon-info">
-              <h4>Free and fresh water</h4>
+              <h4 class="titling">Free and fresh water</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
           <div class="service-info">
             <div class="icon">
-              <ion-icon name="water" size="large" style="color: cornflowerblue"></ion-icon>
+              <ion-icon name="medkit" size="large" style="color: #FF0718"></ion-icon>
             </div>
             <div class="icon-info">
-              <h4>Emergency Services</h4>
+              <h4 class="titling"> First Aid Services</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
@@ -94,19 +94,20 @@
         <div class="col-md-4 col-sm-4">
           <div class="service-info">
             <div class="icon">
-              <ion-icon name="water" size="large" style="color: cornflowerblue"></ion-icon>
+              <ion-icon name="man" size="large" style="color: cornflowerblue"></ion-icon>
+              <ion-icon name="woman" size="large" style="color: #DA0AFF"></ion-icon>
             </div>
             <div class="icon-info">
-              <h4>First med support</h4>
+              <h4 class="titling">Free toilette services</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
           <div class="service-info">
             <div class="icon">
-              <ion-icon name="water" size="large" style="color: cornflowerblue"></ion-icon>
+              <ion-icon name="car" size="large" style="color: #40403E"></ion-icon>
             </div>
             <div class="icon-info">
-              <h4>First Medical Support</h4>
+              <h4 class="titling">Big free parking</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
@@ -114,53 +115,41 @@
       </div>
     </div>
   </section>
-  <!--/ service-->
-  <!--cta-->
-  <section id="cta-1" class="container-flud">
-      <div class="row">
-        <div class="schedule-tab">
-          <div class="container-flud">
-            <div class="mt-boxy-color"></div>
-            <div class="time-info">
-              <h3>Opening Hours</h3>
-              <table style="margin: 8px 0px 0px;" border="1">
-                <tbody>
-                  <tr>
-                    <td>Monday - Friday</td>
-                    <td>8.00 - 17.00</td>
-                  </tr>
-                  <tr>
-                    <td>Saturday</td>
-                    <td>9.30 - 17.30</td>
-                  </tr>
-                  <tr>
-                    <td>Sunday</td>
-                    <td>9.30 - 15.00</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+  <!--/ service -->
+  <!-- opening hours -->
+  <section id="OH" class="section-padding row_color">
+     
+        <div class="container textcolor">
+          <h3>Opening Hours</h3>
+          <div class="container">
+            <ion-icon name="sunny" size="large"></ion-icon>
           </div>
-        </div>
-      </div>
+          <div class="container">
+              <h4>Summer: <br> Saturday 13.30-19.00 <br> Sunday 9.00-13.30 </h4>
+          </div>
+          <div class="container">
+              <ion-icon name="snow" size="large" style="color: white"></ion-icon>
+            </div>
+            <div class="container">
+              <h4>Winter: <br> Saturday 13.30-16.00 <br> Sunday 9.00-13.30 </h4>
+            </div>
+          </div>  
   </section>
-  <!--cta-->
-  <!--contact-->
+  <!--/ opening hours -->
+  <!-- contact -->
   <section id="contact" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="ser-title">Contact us</h2>
+          <h2 class="titling">Contact us</h2>
           <hr class="botm-line">
         </div>
         <div class="col-md-4 col-sm-4">
           <h3>Contact Info</h3>
           <div class="space"></div>
-          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>321 Awesome Street<br> New York, NY 17022</p>
+          <p><ion-icon name="navigate" size="large" style="color: black"></ion-icon> Via Fornace,<br>  Caneva, PN 33070</p>
           <div class="space"></div>
-          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@companyname.com</p>
-          <div class="space"></div>
-          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+1 800 123 1234</p>
+          <p><ion-icon name="call" size="large" style="color: black"></ion-icon> 339 274 8223</p>
         </div>
       </div>
     </div>
@@ -187,7 +176,7 @@
               <ul class="quick-info">
                 <li><a href="index.html"><i class="fa fa-circle"></i>Home</a></li>
                 <li><a href="#service"><i class="fa fa-circle"></i>Service</a></li>
-                <li><a href="#contact"><i class="fa fa-circle"></i>Appointment</a></li>
+                <li><a href="#contact"><i class="fa fa-circle"></i>Contact Us</a></li>
               </ul>
             </div>
           </div>
