@@ -83,12 +83,6 @@ banner
     padding: 0;
     background: rgba(184, 81, 12);
 }
-
-.white, .white:hover, .white:focus
-{
-	color: #fff;
-	width: 100% !important;
-}
 .block
 {
 	display: block;
@@ -122,9 +116,17 @@ banner
 	background: url('../Content/Banner_Site.jpeg') no-repeat fixed;
 	background-size: cover;
 	min-height: 650px;
-	position: relative;
+    position: relative;
 }
-.bg-color{
+@media (max-width: 400px) {
+    .banner {
+        background: url('../Content/Banner_Site.jpeg');
+        background-size: cover;
+        min-height: 60px;
+        position: relative;
+    }
+}
+.bg-color{ /* Regola l'effetto cataratta */
 	background-color: RGBA(150, 109, 76, 0.40);
 	min-height: 650px;
 } 
@@ -338,4 +340,7 @@ footer
     .banner-text h1{
         font-size: 24px;
     }
+}
+.textGeneral{
+    color: rgba(184, 81, 12);
 }
