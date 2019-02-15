@@ -168,7 +168,7 @@ banner
 services
 ***************************************/
 .icon i{
-	color: rgba(184, 81, 12, 0.281);
+    color: rgba(184, 81, 12, 0.281);
 	font-size: 45px;
 	margin-bottom: 25px;
 }
