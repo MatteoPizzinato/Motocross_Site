@@ -75,13 +75,13 @@ banner
 
 @media (max-width: 768px) {
 	.navbar-collapse {
-		background: rgba(184, 81, 12);
+		background: rgba(90, 50, 39);
 	}
 }
 
 .top-nav-collapse {
     padding: 0;
-    background: rgba(184, 81, 12);
+    background: rgba(90, 50, 39);
 }
 .block
 {
@@ -90,7 +90,7 @@ banner
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
     text-transform: uppercase;
-    background-color: rgba(184, 81, 12);
+    background-color: rgba(90, 50, 39);
 }
 .navbar-default .navbar-nav > li > a
 {
@@ -103,14 +103,14 @@ banner
 {
 	color: #fff;
     text-transform: uppercase;
-    background-color: rgba(184, 81, 12);
+    background-color: rgba(221, 199, 157);
 }
 .affix {
     background-color: #ffffff !important;
 }
 .affix .navbar-nav > li > a:hover, .affix .navbar-nav > li > a:focus
 {
-    background-color: rgba(184, 81, 12) !important;
+    background-color: rgba(221, 199, 87) !important;
 }
 #banner{
 	background: url('../Content/Banner.jpg') no-repeat fixed;
@@ -148,7 +148,7 @@ banner
 	margin-top: 30px;
 	padding: 10px 20px;
 	font-size: 12px;
-	background-color: rgba(184, 81, 12);
+	background-color: rgba(90, 50, 39);
 	border-radius: 3px;
 	color: #fff;
 }
@@ -168,7 +168,7 @@ banner
 services
 ***************************************/
 .icon i{
-    color: rgba(184, 81, 12, 0.281);
+    color: rgba(90, 50, 39, 0.281);
 	font-size: 45px;
 	margin-bottom: 25px;
 }
@@ -183,7 +183,7 @@ services
 about
 ***************************************/
 #about{
-    background-color: rgba(184, 81, 12);
+    background-color: rgba(90, 50, 39);
 }
 .lg-line{
 	line-height: 1.4;
@@ -220,7 +220,7 @@ about
 opening hours
 ***************************************/
 .row_color{
-    background-color: rgba(184, 81, 12);
+    background-color: rgba(90, 50, 39);
     align-content: center;
     align-items: center;
     align-self: center;
@@ -342,7 +342,7 @@ footer
     }
 }
 .textGeneral{
-    color: rgba(184, 81, 12);
+    color: rgba(221, 199, 157);
 }
 
 .maps{
