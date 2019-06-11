@@ -1,4 +1,3 @@
-
 body {
 	line-height: 20px;
 	color: #999999;
@@ -227,13 +226,13 @@ about
 opening hours
 ***************************************/
 .row_color{
-    background-color: rgba(217, 189, 156);
+    background-color: rgba(217, 189, 156); /* NOT WORKING */ 
     align-content: center;
     align-items: center;
     align-self: center;
 }
 .textcolor{
-    color:  rgb(255, 255, 255);
+    color:  rgb(255, 255, 255); /* NOT WORKING */
 }
 
 /***************************************
@@ -376,9 +375,6 @@ footer
     }
   }
 }
-
-
-
 
 
 .Logo{
