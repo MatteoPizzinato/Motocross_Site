@@ -64,7 +64,7 @@ banner
     border-radius: 0px;
 }
 
-.navbar-brand img {
+.navbar-brand  {
     padding-top: 2px;
     width: 120px !important;
 }
@@ -75,13 +75,13 @@ banner
 
 @media (max-width: 768px) {
 	.navbar-collapse {
-		background: rgba(221, 199, 157);
+		background: rgba(217, 189, 156);
 	}
 }
 
 .top-nav-collapse {
     padding: 0;
-    background: rgba(221, 199, 157);
+    background: rgba(217, 189, 156);
 }
 .block
 {
@@ -90,7 +90,7 @@ banner
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
     text-transform: uppercase;
-    background-color: rgba(221, 199, 157);
+    background-color: rgba(217, 189, 156);
 }
 .navbar-default .navbar-nav > li > a
 {
@@ -110,7 +110,7 @@ banner
 }
 .affix .navbar-nav > li > a:hover, .affix .navbar-nav > li > a:focus
 {
-    background-color: rgba(221, 199, 157) !important;
+    background-color: rgba(217, 189, 156) !important;
 }
 #banner{
 	background: url('../Content/Banner.jpg') no-repeat fixed;
@@ -123,6 +123,13 @@ banner
         background: url('../Content/Banner.jpg');
         background-size: cover;
         min-height: 60px;
+        position: relative;
+    }
+@media (max-width: 200px) {
+    .banner {
+        background: url('../Content/Banner.jpg');
+        background-size: cover;
+        min-height: 30px;
         position: relative;
     }
 }
@@ -148,7 +155,7 @@ banner
 	margin-top: 30px;
 	padding: 10px 20px;
 	font-size: 12px;
-	background-color: rgba(221, 199, 157);
+	background-color: rgba(217, 189, 156);
 	border-radius: 3px;
 	color: #fff;
 }
@@ -168,7 +175,7 @@ banner
 services
 ***************************************/
 .icon i{
-    color: rgba(221, 199, 157, 0.281);
+    color: rgba(217, 189, 156, 0.281);
 	font-size: 45px;
 	margin-bottom: 25px;
 }
@@ -183,7 +190,7 @@ services
 about
 ***************************************/
 #about{
-    background-color: rgba(221, 199, 157);
+    background-color: rgba(217, 189, 156);
 }
 .lg-line{
 	line-height: 1.4;
@@ -220,7 +227,7 @@ about
 opening hours
 ***************************************/
 .row_color{
-    background-color: rgba(221, 199, 157);
+    background-color: rgba(217, 189, 156);
     align-content: center;
     align-items: center;
     align-self: center;
@@ -368,3 +375,28 @@ footer
       width: 100%;
     }
   }
+}
+
+
+
+
+
+.Logo{
+    width: 500px; 
+    margin-left: 330px;
+    margin-top: 100px;
+}
+@media (max-width: 400px) {
+    .Logo {
+        width: 200px; 
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+@media (max-width: 200px) {
+    .Logo {
+        width: 500px; 
+        margin-left: 330px;
+        margin-top: 100px;
+        }
+    }   
+}
